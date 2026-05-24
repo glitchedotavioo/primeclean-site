@@ -47,16 +47,24 @@ export default function PrimeCleanLandingPage() {
           
           {[
             {
-              title: "Limpeza Corporativa",
-              desc: "Ambientes organizados e higienizados diariamente.",
-            },
-            {
-              title: "Pós-Obra",
-              desc: "Limpeza completa após construções e reformas.",
+              title: "Limpeza de Escritórios",
+              desc: "Ambientes organizados, limpos e profissionais para sua empresa.",
             },
             {
               title: "Higienização Profunda",
-              desc: "Sofás, carpetes e estofados com limpeza avançada.",
+              desc: "Limpeza detalhada de superfícies, estofados e áreas críticas.",
+            },
+            {
+              title: "Limpeza Industrial",
+              desc: "Serviços especializados para grandes ambientes e operações.",
+            },
+            {
+              title: "Limpeza Pós Obra",
+              desc: "Remoção completa de resíduos e acabamento impecável.",
+            },
+            {
+              title: "Limpeza Premium",
+              desc: "Serviço de alto padrão com qualidade e atenção aos detalhes.",
             },
           ].map((item, i) => (
             <div

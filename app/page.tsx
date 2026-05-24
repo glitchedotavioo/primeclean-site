@@ -4,9 +4,19 @@ export default function PrimeCleanLandingPage() {
       
       {/* HEADER */}
       <header className="flex items-center justify-between px-10 py-6 border-b bg-white/70 backdrop-blur">
-        <h1 className="text-3xl font-bold text-[#3F6FF3]">
-          PRIMEClean
-        </h1>
+        
+        {/* LOGO */}
+        <div className="flex items-center gap-3">
+          <img
+            src="/logo.png"
+            alt="PRIMEClean"
+            className="h-10 w-auto object-contain"
+          />
+
+          <span className="text-xl font-bold text-[#3F6FF3]">
+            PRIMEClean
+          </span>
+        </div>
 
         <nav className="flex gap-6 text-gray-600 font-medium">
           <a href="#servicos" className="hover:text-[#3F6FF3]">Serviços</a>
@@ -44,7 +54,6 @@ export default function PrimeCleanLandingPage() {
         </h2>
 
         <div className="grid md:grid-cols-3 gap-6">
-          
           {[
             {
               title: "Limpeza de Escritórios",
